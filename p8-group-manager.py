@@ -24,7 +24,7 @@ def welcome_msg():
 def display_menu():
     print("?: list commands")
     print("C: Create a new group")
-    print("L: List group")
+    print("G: List group")
     print("A: Add data to a group")
     print("L: List data for a group")
     print("X: Exit\n")
@@ -33,10 +33,8 @@ def find_group(group_name):
     # if len(group_name.strip()) > 0:
     for grp in group_list:
         if grp['group'] == group_name.strip():
-            print("Group already found, you will need a new group name")
-            return True # Found
-        else: 
-            return False # Not found 
+            print("Group already found, you will need a new group name")        
+    return False # Not found
     
 def create_group():
     group_name = input("Enter a group name (empty to cancel): ")
