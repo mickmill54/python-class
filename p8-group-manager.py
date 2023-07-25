@@ -13,16 +13,7 @@ group_list = [
 #                             ],
 #                     },
 #             },
-#             {
-#                 'Albums': { 
-#                     '_fields_': ['title','artists'],
-#                     '_data_':
-#                     [
-#                         {'a;lbum': 'Believer', 'artist': 'Imagine Dragons'},
-#                         {'title': 'Natural', 'artists': 'Imagine Dragons'}
-#                     ],
-#                 },
-#             }
+
                 
 def welcome_msg():
     welcome_msg_2="This program creates groups with dynamic properties"
