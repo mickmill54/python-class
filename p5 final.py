@@ -79,10 +79,4 @@ print("\n*** Results ***")
 print(f"Word:\t\t{word_to_guess}")
 print(f"Matched:\t{matched_guesses}")
 print(f"Unmatched:\t{unmatched_guesses}")
-print(f"Guesses:\t{total_guesses}")
-
-
-    
-
- 
-    
+print(f"Guesses:\t{total_guesses}")    
